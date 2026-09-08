@@ -1,0 +1,23 @@
+{
+  "name": "docmark_convert",
+  "description": "Convert a supported document (PDF / Word .docx/.doc / PPT .pptx/.ppt / Excel .xlsx/.xls) or image (.jpg/.jpeg/.png/.bmp/.webp — invoices, ID cards, order screenshots, general OCR) into clean Markdown using the DocMark API. Provide either an existing local file path (POST /convert, multipart) or a reachable http(s) file URL (POST /convert/url, JSON). 1 page costs 1 point; HTTP 402 means points insufficient, 401 means invalid key. Requires DOCMARK_API_KEY.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "file": {
+        "type": "string",
+        "description": "Local file path to convert. Supported: .pdf .docx/.doc .pptx/.ppt .xlsx/.xls .jpg/.jpeg/.png/.bmp/.webp"
+      },
+      "url": {
+        "type": "string",
+        "description": "Remote http(s) file URL to convert (mutually exclusive with file; posted as JSON to /convert/url)."
+      },
+      "out": {
+        "type": "string",
+        "description": "Optional output file path to save the Markdown; default returns text."
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  }
+}
