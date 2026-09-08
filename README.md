@@ -42,11 +42,6 @@ DOCMARK_BASE=https://your-host python3 scripts/convert.py --file a.pdf
 ~/.config/opencode/skills/docmark-md-converter/
 ```
 
-## 测试
-
-```bash
-python3 tests/test_convert.py     # 本地假服务自测，无需 API Key
-```
 
 ## 许可证
 
