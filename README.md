@@ -92,12 +92,6 @@ DOCMARK_BASE=https://your-host python3 scripts/convert.py --file a.docx
 
 > 该接口契约可独立于智能体使用——任何能发 HTTP 的语言/工具都能对接，方便二次集成到自建 RAG / 工作流。
 
-## 🧪 Test / 测试
-
-```bash
-python3 tests/test_convert.py    # 本地假服务自测，无需 API Key
-```
-
 ## 📦 What's inside / 目录结构
 
 ```
