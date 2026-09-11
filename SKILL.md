@@ -53,8 +53,3 @@ DOCMARK_BASE=https://your-host python3 <skill_dir>/scripts/convert.py --file 身
 |---|---|---|
 | `DOCMARK_API_KEY` | — | API key (`md_...`), required |
 | `DOCMARK_BASE` | `https://note.prowyg.com` | API base; change for self-hosted |
-
-## Tests
-
-`python3 tests/test_convert.py` validates request paths/headers/bodies against a
-local fake server (no API key needed).
