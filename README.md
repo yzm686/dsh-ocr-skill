@@ -115,9 +115,6 @@ docmark-md-converter/
 | Cursor / Zed / Windsurf / Roo / Gemini CLI / Trae / Qwen Code | ✅ | `.agents/skills/` 或各自 skills 目录 |
 | function-calling 平台（OpenAI/国产大模型 API） | ⚡ | 读取 `tool-schema.json` 自行实现 HTTP 调用 |
 
-## 🤝 Contributing / 参与
-
-PR / Issue 欢迎。提交前请保持 `python3 tests/test_convert.py` 通过。
 
 ## 📄 License
 
